@@ -36,5 +36,5 @@ response = (room, msg, sender, isGroupChat, replier, ImageDB) ->
         replier.reply "키워드가 삭제되었습니다."
     
     #추가된 키워드 말하기
-    chat = File.read path + data + ".txt"
+    chat = File.read path + msg + ".txt"
     replier.reply chat if chat isnt null
