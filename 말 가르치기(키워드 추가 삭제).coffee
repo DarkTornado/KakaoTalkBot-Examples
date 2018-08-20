@@ -4,6 +4,7 @@
 닼토봇 & Nusty 내장 카톡봇용 소스입니다.
 라이선스는 딱히 없는데, 이 소스르 팔고 다니면 싸대기 퍽퍽.
 
+/가 키=값
 /추가 키=값
 /삭제 키
 ###
@@ -25,7 +26,7 @@ response = (room, msg, sender, isGroupChat, replier, ImageDB) ->
     data = msg.replace cmd + " ", ""
 
     #키워드 추가
-    if cmd is "/추가"
+    if cmd is "/가르치기" or cmd is "/추가"
         chat = data.split "="
         File.save path + chat[0] + ".txt", chat[1]
         replier.reply "키워드가 추가되었습니다."
