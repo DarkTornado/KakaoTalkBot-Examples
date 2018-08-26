@@ -5,7 +5,7 @@ version 1.0
 
 Dark Tornado가 만든 카카오톡 봇과 호환됩니다.
 
-아이카에는 GPL 3.0이 적용되어있습니다.
+카호에는 MIT License가 적용되어있습니다.
 
 MIT License
 
