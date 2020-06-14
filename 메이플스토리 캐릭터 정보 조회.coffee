@@ -42,7 +42,7 @@ response = (room, msg, sender, isGroupChat, replier, ImageDB, packageName) ->
       replier.reply "캐릭터를 찾을 수 없습니다."
     else
       replier.reply "[메이플스토리 캐릭터 정보]\n"+
-        "이름 " + data + 
+        "이름 : " + data + 
         "\n레벨 : " + result[0] + 
         "\n직업 : " + result[1] + 
         "\n인기도 : " + result[2] + 
