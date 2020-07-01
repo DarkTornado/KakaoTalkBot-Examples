@@ -67,7 +67,7 @@ function response(room, msg, sender, isGroupChat, replier) {
     var cmd = msg.split(" ")[0];
     var data = msg.replace(cmd + " ", "");
     if (msg == "/대전") {
-        replier.reply("[대전 도시철도 역 목록]" + Utils.compress() + "\n\n" + Djet.getStationList().join("\n"));
+        replier.reply("[대전 도시철도 역 목록]" + "\u200b".repeat(500) + "\n\n" + Djet.getStationList().join("\n"));
     } else if (cmd == "/대전") {
         var result = Djet.getMetroInfo(data);
         if (result == null) replier.reply("정보 불러오기 실패");
