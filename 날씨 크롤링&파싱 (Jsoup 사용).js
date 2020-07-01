@@ -48,7 +48,7 @@ Utils.getWeather = function(pos) {
         result += "최고 기온 : " + tempMax + "\n";
         result += "최저 기온 : " + tempMin + "\n";
         result += "습도 : " + hum + "\n";
-        result += "미세먼지 : " + hum;
+        result += "미세먼지 : " + dust;
         return result.replace(/°/g, "℃");
     } catch (e) {
         return null;
