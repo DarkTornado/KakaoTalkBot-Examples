@@ -2,7 +2,7 @@
 날씨 정보
 © 2020 Dark Tornado, All rights reserved.
 Jsoup 라이브러리를 포함하고 있는 봇 구동 앱에서 돌아가며, Utils 객체가 없다면 알아서 만드세요(?).
-라이선스는 LGPL 3.0이며, 영리 목적으로 사용을 금합니다.
+라이선스는 LGPL 3.0이며, 영리 목적으로 사용을 금하며, 원작자 표기를 강하게 권장합니다.
 
 one line to give the library's name and an idea of what it does.
 Copyright (C) 2020  Dark Tornado
