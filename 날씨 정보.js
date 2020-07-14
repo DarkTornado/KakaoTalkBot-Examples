@@ -2,8 +2,7 @@
 날씨 정보
 © 2020 Dark Tornado, All rights reserved.
 Jsoup 라이브러리를 포함하고 있는 카톡봇에서 돌아가며, Utils 객체가 없다면 알아서 만드세요(?).
-
-License : GPL 3.0
+라이선스는 GPL 3.0이며, 영리 목적으로 사용을 금합니다.
 날씨 정보 Copyright (C) 2020 Dark Tornado
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
