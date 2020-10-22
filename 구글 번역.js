@@ -14,7 +14,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
             .data("tl", cmd[2])
             .data("dt", "t")
             .data("q", cmd.slice(3).join(" "))
-            .data("&ie", "UTF-8")
+            .data("ie", "UTF-8")
             .data("oe", "UTF-8")
             .ignoreHttpErrors(true).ignoreContentType(true).post().wholeText();
         data = JSON.parse(data);
