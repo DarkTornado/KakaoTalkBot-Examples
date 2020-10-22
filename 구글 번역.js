@@ -1,6 +1,7 @@
 /*
 구글 번역
 © 2020 Dark Tornado, All rights reserved.
+BSD-3-Clause License
 /번역 [언어1] [언어2] [내용]
 */
 
