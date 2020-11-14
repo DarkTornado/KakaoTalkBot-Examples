@@ -1,8 +1,8 @@
 /*
- * 다음 날씨 파싱
- * © 2020 Dark Tornado, All rights reserved.
- * 라이선스 : GPL 3.0 (https://github.com/DarkTornado/KakaoTalkBot-Examples/blob/master/LICENSE-GPL3.0)
- * 채팅 자동응답 봇, 메신저봇, 메신저봇R에서 구동되는 소스입니다.
+다음 날씨 파싱
+© 2020 Dark Tornado, All rights reserved.
+라이선스 : GPL 3.0 (https://github.com/DarkTornado/KakaoTalkBot-Examples/blob/master/LICENSE-GPL3.0)
+채팅 자동응답 봇, 메신저봇, 메신저봇R에서 구동되는 소스입니다.
 */
 
 Utils.getWeather = function(pos) {
