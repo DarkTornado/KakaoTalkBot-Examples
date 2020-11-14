@@ -72,7 +72,7 @@ function response(room, msg, sender, isGroupChat, replier, ImageDB, packageName)
     if (cmd == "/날씨") {
         var result = Utils.getWeather(data);
         if (result == null) replier.reply("날씨 정보 불러오기 실패");
-        else replier.reply("[" + data + "날씨 정보]\n" + result);
+        else replier.reply("[" + data + " 날씨 정보]\n" + result);
     }
 }
 
