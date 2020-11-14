@@ -61,7 +61,7 @@ Utils.getWeather = function(pos) {
             "\n미세먼지 : " + dust +
             "\n초미세먼지 : " + dust2;
     } catch (e) {
-        print("날씨 정보 불러오기 실패\n" + e);
+        Log.info("날씨 정보 불러오기 실패\n" + e);
         return null;
     }
 };
