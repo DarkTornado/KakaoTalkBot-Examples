@@ -11,7 +11,7 @@ Utils.getWeather = function(pos) {
         data = data.select("div#weatherPanels").select("div.wrap_pannel").get(0);
 
         /*상태*/
-        var status = data.select("p.desc_main").text().split(", 어제보다")[0];
+        var status = data.select("p.desc_main").text().split(", 어제")[0];
 
         /*온도*/
         var temp = data.select("em.txt_temp").first().ownText();
