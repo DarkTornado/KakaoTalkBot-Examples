@@ -53,7 +53,7 @@ Utils.getWeather = function(pos) {
             }
         }
 
-        return "상테 : " + status +
+        return "상태 : " + status +
             "\n온도 : " + temp + "℃" +
             "\n습도 : " + hum +
             "\n바람 : " + windDir + ", " + windSpeed + "m/s" +
