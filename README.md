@@ -50,6 +50,7 @@
  - 아이콘이 보라색인 앱입니다.
  - 자바스크립트와 타입스크립트를 지원합니다.
  - 이벤트 리스너를 동적으로 등록 및 해제할 수 있으며, 수용봇용 소스를 구동할 수 있습니다.
+ - <b>Play 스토어에서 사실상 삭제</b>
   
 ### [수용봇](https://play.google.com/store/apps/details?id=com.suyong.kakaobot)
  - [수용](https://github.com/Su-Yong)님이 만드신 카카오톡 봇 구동 앱입니다.
@@ -57,6 +58,7 @@
  - 자바스크립트를 지원합니다.
  - 이 봇에서 작동하는 소스는 여기서는 다루지 않습니다.
  - 봇 여러개를 만들 수 있습니다.
+ - <b>Play 스토어에서 사실상 삭제</b>
 
 ### [넨카봇](https://play.google.com/store/apps/details?id=com.suyong.kakaobot)
  - [Nenka](https://github.com/NenkaLab)님이 만드신 카카오톡 봇 구동 앱으로, 수용봇이 기반입니다.
@@ -64,4 +66,6 @@
  - 자바스크립트를 지원합니다.
  - 이 봇에서 작동하는 소스는 여기서는 다루지 않습니다.
  - 봇 여러개를 만들 수 있습니다.
+ - <b>Play 스토어에서 사실상 삭제</b>
+ 
 </s>
