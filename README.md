@@ -1,5 +1,5 @@
 # KakaoTalk Bot Examples Source
-© 2018-2020 Dark Tornado, All rights reserved.
+© 2018-2021 Dark Tornado, All rights reserved.
 
 ## 개요
  - 카카오톡 봇 예제 소스들입니다.
@@ -26,14 +26,6 @@
  - 채팅 자동응답 봇의 약간 상위호환인 카톡봇으로, Nusty 안에 내장된 기능입니다.
  - 경량화 버전인 `메신저 도구`로 대체될 예정입니다.
  
-### [메신저봇](https://play.google.com/store/apps/details?id=com.xfl.kakaotalkbot) (바렛봇/메봇/구메봇)
- - [Violet XF](https://blog.naver.com/mir99712)님이 만드신 봇 구동 앱으로, 젤브봇이 기반입니다.
- - 아이콘이 파란색인 앱입니다.
- - 자바스크립트를 지원하며, 카카오톡 말고도 일부 다른 메신저들도 지원합니다.
- - 패키지명이 수정된 카카오톡으로 봇을 돌리는 것을 지원합니다.
- - 봇 여러개를 만들 수 있으며, 다른 봇에 있는 객체에 접근할 수 있습니다.
- - Jsoup 라이브러리가 내장되어 있습니다.
- 
  ### [메신저봇R](https://play.google.com/store/apps/details?id=com.xfl.msgbot) (메봇/메봇R)
  - [Violet XF](https://blog.naver.com/mir99712)님이 만드신 봇 구동 앱으로, 메신저봇의 리펙토링 버전입니다.
  - 아이콘이 주황색같은 노란색인 앱입니다.
@@ -44,6 +36,15 @@
  - Jsoup 라이브러리가 내장되어 있습니다.
  
 <s>
+ 
+ ### [메신저봇](https://play.google.com/store/apps/details?id=com.xfl.kakaotalkbot) (바렛봇/메봇/구메봇)
+ - [Violet XF](https://blog.naver.com/mir99712)님이 만드신 봇 구동 앱으로, 젤브봇이 기반입니다.
+ - 아이콘이 파란색인 앱입니다.
+ - 자바스크립트를 지원하며, 카카오톡 말고도 일부 다른 메신저들도 지원합니다.
+ - 패키지명이 수정된 카카오톡으로 봇을 돌리는 것을 지원합니다.
+ - 봇 여러개를 만들 수 있으며, 다른 봇에 있는 객체에 접근할 수 있습니다.
+ - Jsoup 라이브러리가 내장되어 있습니다.
+ - <b>더 이상 Play 스토어에 뜨지 않습니다.</b>
 
 ### [젤브봇](https://play.google.com/store/apps/details?id=be.zvz.newskbot)
  - [JellyBrick](https://github.com/JellyBrick)님이 만드신 카카오톡 봇 구동 앱입니다.
