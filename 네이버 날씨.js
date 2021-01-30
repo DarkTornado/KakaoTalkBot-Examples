@@ -23,6 +23,7 @@ function getNaverWeather(loc) {
             var tmp = data.get(n).select("strong.temperature").get(0).ownText();
             tmp = tmp.replace("°", "℃ ~ ").replace("°", "℃");
             result[n] += "온도 : " + tmp;
+            return result;
         }
     } catch (e) {
         Log.error(loc + "날씨 정보 뜯어오기 실패\n" + e);
