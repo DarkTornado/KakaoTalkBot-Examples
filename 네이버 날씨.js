@@ -20,8 +20,8 @@ function getNaverWeather(loc) {
             result[n] += info.get(7).attr("data-wetr-txt") + "\n";
             result[n] += "강수확률 : " + info.get(4).ownText() + " -> ";
             result[n] += info.get(9).ownText() + "\n";
-            var tmp = data.get(n).select("strong.temperature").get(0).ownText();
-            tmp = tmp.replace("°", "℃ ~ ").replace("°", "℃");
+            var tmp = data.get(n).select("strong.temperature").select("span");
+            tmp = (tmp.get(0).ownText() + " ~ " + tmp.get(3).ownText()).replace(/°/g, "℃");
             result[n] += "온도 : " + tmp;
             return result;
         }
