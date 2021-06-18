@@ -1,3 +1,9 @@
+/*
+전력예비율 정보
+© 2021 Dark Tornado, All rights reserved.
+라이선스 : CCL BY-NC 4.0
+*/
+
 function getElectricity() {
     var data = org.jsoup.Jsoup.connect("https://m.search.naver.com/search.naver?query=전력예비율").get().select("div.status_box");
     var result = "상태 : " + data.select("span.u_hc").text();
