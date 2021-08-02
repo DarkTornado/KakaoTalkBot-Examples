@@ -8,7 +8,7 @@
 어느 앱과 작동 모습의 거의 동일하지만, 앱 다운로드 링크가 전송되지는 않습니다.
 
 본 저작물은 '기상청'에서 공공누리 제1유형으로 개방한 '동네예보 RSS 서비스'을 이용하였으며,
-해당 저작물은 '기상청(https://www.weather.go.kr/weather/lifenindustry/sevice_rss.jsp)'에서 무료로 사용할 수 있습니다.
+해당 저작물은 '기상청(https://www.weather.go.kr/)'에서 무료로 사용할 수 있습니다.
 */
 
 const ZoneID = {
