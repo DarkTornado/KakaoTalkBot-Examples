@@ -35,7 +35,7 @@ const ZoneID = {
 
 function response(room, msg, sender, isGroupChat, replier) {
     if (msg == "만능 날씨") {
-        replier("날씨는 이렇게 물어보세요.\n\n" +
+        replier.reply("날씨는 이렇게 물어보세요.\n\n" +
             "\"예시) 만능 날씨 서울\"\n\n" +
             "위치 리스트\n" +
             "서울,부산,춘천,강릉,인천,수원,청주,홍성,대전,안동,포항,울산,대구,전주,목포,광주,여수,창원,제주");
