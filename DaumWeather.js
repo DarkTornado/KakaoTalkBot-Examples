@@ -12,7 +12,7 @@ getWeather = (loc) => {
         var result = "[" + loc + " 날씨]\n";
         var data = data0.get(0);
         result += "상태 : " + data.select("p").text().split(", 어제")[0] + "\n";
-        result += "온도 : " + data.select("em.txt_temp").get(0).ownText() + "\n";
+        result += "온도 : " + data.select("em.txt_temp").get(0).ownText() + "℃\n";
         data = data.select("dd");
         result += "습도 : " + data.get(0).text() + "\n";
         result += "바람 : " + data0.select("dt").get(1).text();
