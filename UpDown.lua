@@ -32,7 +32,8 @@ function response(room, msg, sender, isGroupChat, replier)
     end
 
     if msg == '/업다운도움말' then
-        replier:reply('/업다운시작 [수] - 업다운 게임을 시작해요.\n' ..
+        replier:reply('[업다운 게임 도움말]\n' ..
+            '/업다운시작 [수] - 업다운 게임을 시작해요.\n' ..
             '/업다운종료 - 진행 중인 업다운 게임을 멈줘요.\n' ..
             '/업다운 [수] 해당 수가 정답인지 확인해요.')
     end
