@@ -24,7 +24,8 @@ function response(room, msg, sender, isGroupChat, replier)
 
     if msg == '/업다운종료' then
         if number > 0 then
-            replier:reply('업다운 게임을 종료했어요.')
+            replier:reply('업다운 게임을 종료했어요.\n' .. 
+                '정답은 ' .. number .. '(이)였어요.')
             number = -1;
         else
             replier:reply('진행중인 업다운 게임이 없어요.')
@@ -34,9 +35,8 @@ function response(room, msg, sender, isGroupChat, replier)
     if msg == '/업다운도움말' then
         replier:reply('[업다운 게임 도움말]\n' ..
             '/업다운시작 [수] - 업다운 게임을 시작해요.\n' ..
-            '/업다운종료 - 진행 중인 업다운 게임을 멈줘요.\n' ..
-            '/업다운 [수] - 해당 수가 정답인지 확인해요.\n' ..
-            '/업다운정답 - 업다운 정답을 출력하고 진행 중인 업다운 게임을 멈줘요.')
+            '/업다운종료 - 업다운 정답을 출력하고 진행 중인 업다운 게임을 멈줘요.\n' ..
+            '/업다운 [수] - 해당 수가 정답인지 확인해요.\n')
     end
 
     if cmd[1] == '/업다운' then
@@ -51,12 +51,4 @@ function response(room, msg, sender, isGroupChat, replier)
         end
     end
     
-    if msg == '/업다운정답' then
-        if number > 0 then
-            replier:reply('정답은 ' .. number .. '(이)였어요.\n업다운 게임을 종료했어요.')
-            number = -1;
-        else
-            replier:reply('진행중인 업다운 게임이 없어요.')
-        end
-    end
 end
