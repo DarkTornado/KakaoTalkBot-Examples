@@ -47,7 +47,7 @@ function response(room, msg, sender, isGroupChat, replier) {
                     result[n] = (n + 1) + "회: " + participants[index] + " 생존";
                 }
                 index++;
-                if (index == participants.length) index = 0;
+                if (index >= participants.length) index = 0;
             }
             replier.reply(died + "님께서 사망하셨습니다\n----------\n" + result.join("\n"));
             enabled = false;
