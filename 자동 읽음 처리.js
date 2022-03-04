@@ -1,7 +1,7 @@
 /*
 채팅 읽음 처리
 © 2020 Dark Tornado, All rights reserved.
-라이선스 : DDL Type C
+라이선스 : Deep Dark License - Type C
 */
 
 var chatCount = {};
