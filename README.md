@@ -24,7 +24,7 @@
  
 ### [Nusty](https://play.google.com/store/apps/details?id=com.darktornado.nusty) 내장 챗봇
 - Nusty 안에 내장된 기능입니다.
-- 채팅 자동응답 봇의 약간 상위호환이였던 자동응답 구동 기능으로, 경량화 버전인 `메신저 도구`로 대체되었습니다.
+- 채팅 자동응답 봇의 약간 상위호환이였던 자동응답 구동 기능으로, 경량화 버전인 [메신저 도구](https://github.com/DarkTornado/MessangerUtils)로 대체되었습니다.
 - 지금은 더 경량화 버전으로 바뀌는 중입니다.
  
  ### [메신저봇R](https://play.google.com/store/apps/details?id=com.xfl.msgbot) (메봇/메봇R)
