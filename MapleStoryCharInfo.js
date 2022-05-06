@@ -1,12 +1,12 @@
 /*
 메이플스토리 캐릭터 정보 조회 (멮gg 크롤링)
-© 2020 Dark Tornado, All rights reserved.
+© 2020-2022 Dark Tornado, All rights reserved.
 라이선스 : GPL 3.0 (https://github.com/DarkTornado/KakaoTalkBot-Examples/blob/master/LICENSE-GPL3.0)
 */
 
 const kalingModule = require('kaling').Kakao();
 const Kakao = new kalingModule;
-Kakao.init("Javascript key");
+Kakao.init("Javascript key", "domain");
 Kakao.login("id", "password");
 
 
