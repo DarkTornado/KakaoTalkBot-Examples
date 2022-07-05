@@ -1,6 +1,6 @@
 /*
 주식 가격 검색
-© 2020 Dark Tornado, All rights reserved.
+© 2020-2022 Dark Tornado, All rights reserved.
 라이선스 : GPL 3.0
 /주식 [회사이름]
 */
