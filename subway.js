@@ -11,7 +11,6 @@ const getStationArrival = (input) => {
     const result = [];
     for (let n = 0; n < 2; n++) {
         let datum = data.get(n);
-        Log.i(data.get(n))
         let dir = datum.select('strong').text().trim();
         if (dir == '-') continue;
         if (dir.endsWith('행')) dir = dir.slice(0, -1) + ' 방면'
