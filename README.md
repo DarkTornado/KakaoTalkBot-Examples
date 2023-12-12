@@ -73,4 +73,4 @@
 </s>
 
 ## 기타
-* [Fork 기능을 사용하지 않고, 이 레포지토리의 소스를 훔쳐가서 만든 레포지토리](https://github.com/jujinesy/DarkTornado_KakaoTalkBot-Examples)가 존재합니다.
+* [Fork 기능을 사용하지 않고, 이 repository의 소스를 훔쳐가서 만든 repository](https://github.com/jujinesy/DarkTornado_KakaoTalkBot-Examples)가 존재합니다.
