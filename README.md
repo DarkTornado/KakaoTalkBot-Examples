@@ -73,4 +73,5 @@
 </s>
 
 ## 기타
-* [Fork 기능을 사용하지 않고, 이 repository의 소스를 훔쳐가서 만든 repository](https://github.com/jujinesy/DarkTornado_KakaoTalkBot-Examples)가 존재합니다.
+- [Fork 기능을 사용하지 않고, 이 repository의 소스를 훔쳐가서 만든 repository](https://github.com/jujinesy/DarkTornado_KakaoTalkBot-Examples)가 존재합니다.
+- 훔쳐간 repository의 원본에 수정사항이 발생하면 본인의 repository도 수정하지만, 이런식으로 본인에게 불리한 내용이 작성되는 경우는 훔쳐간 repository에 반영하지 않습니다.
